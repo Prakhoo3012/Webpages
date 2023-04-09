@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Fitness</title>
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+</head>
+<link rel="stylesheet" href="css/main.css">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Work Sans', sans-serif;
+        color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        background: url('assests/Gym1.jpg');
+        /* font-size: 0px; */
+    }
+    .nav-logo {
+        line-height: 5px;
+        font-size: 16px;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+    .nav-logo img {
+        width: 136px;
+        height: 80px;
+        filter: invert(100%);
+    }
+    .nav-logo p {
+        text-align: center; 
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .mid {
+        display: block;
+        width: 46%;
+        margin: 25px auto;   
+        /* border: 2px solid blue; */
+    }
+    .nav-bar {
+        display: inline-block;
+    }
+    .nav-bar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+    .nav-bar li a {
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .active:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 34px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0px 9px;
+        color: antiquewhite;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: grey;
+    }
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 36%;
+        border-radius: 28px;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        padding: 1px;
+        width: 508px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 97%;
+        margin: 17px auto;
+    }
+</style>
+<body>
+    <!-- Header -->
+    <header class="header">
+
+        <!-- left box for logo  -->
+        <div class="nav-logo">
+            <a href="index.html"><img src="assests/logo1.png" alt="" class="nav-logo-img"></a>
+            <p class="logo-text">Harry Fitness</p>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="nav-bar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#" class="active">Fitness Calculator</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">E-Mail</button>
+        </div>
+
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <div class="container">
+        <h1>Join the best Gym of Jaipur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your E-Mail ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <!-- end of main -->
+</body>
+</html>

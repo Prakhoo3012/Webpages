@@ -1,0 +1,5 @@
+1. Free stock image
+2. invert function
+3. website template
+4. Display Property:- (Display: none;) -> will hide the element and the space
+5. visibility Property:- (visibility: hidden) -> will hide the element but will show its empty space
